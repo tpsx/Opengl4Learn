@@ -72,6 +72,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>D:\openglProjs\ogl1\ogl1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\openglLibs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -153,7 +154,6 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LoadShader.cpp" />
     <ClCompile Include="ogl1.cpp" />
     <ClCompile Include="shaderBuilder.cpp" />
     <ClCompile Include="stdafx.cpp">

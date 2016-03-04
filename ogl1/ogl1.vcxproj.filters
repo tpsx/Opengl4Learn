@@ -38,9 +38,6 @@
     <ClCompile Include="ogl1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LoadShader.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="shaderBuilder.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
